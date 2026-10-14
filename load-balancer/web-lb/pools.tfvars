@@ -15,24 +15,24 @@ pools = {
     origins = [
       {
         name               = "origin-1"
-        address            = "104.18.16.115" # private IP of your backend
+        address            = "10.190.0.56" # private IP of your backend
         port               = 80
         weight             = 1
-        virtual_network_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" # required for private IPs
+        virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea" # required for private IPs
       },
       {
         name               = "origin-2"
-        address            = "104.18.17.115"
+        address            = "10.190.0.57"
         port               = 80
         weight             = 1
-        virtual_network_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
       },
             {
         name               = "origin-2"
-        address            = "104.18.18.115"
+        address            = "10.190.0.58"
         port               = 80
         weight             = 1
-        virtual_network_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
       },
     ]
   }
