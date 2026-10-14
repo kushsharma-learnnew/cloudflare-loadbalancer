@@ -24,11 +24,11 @@ pools = {
         name               = "origin-2"
         address            = "10.190.0.57"
         port               = 80
-        weight             = 1
+        weight             = 2
         virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
       },
             {
-        name               = "origin-3"
+        name               = "origin-3-1"
         address            = "10.190.0.58"
         port               = 80
         weight             = 1
