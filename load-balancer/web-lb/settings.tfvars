@@ -8,12 +8,12 @@
 # ===========================================================================
 
 # ---- WHERE (required) ----
-account_id = "68e1253a502bd37e8feabeea38358543" # Cloudflare Account ID
-zone_id    = "f32ea93ad0f2c31d8f59078ac1a5f036" # Zone ID of the domain below
+account_id = "b1d2a86cbf7d5358135fe2674a27b717" # Cloudflare Account ID
+zone_id    = "3941206acdf7fff732a48ce7b17f7946" # Zone ID of the domain below
 
 # ---- LOAD BALANCER SETTINGS (required) ----
 load_balancer = {
-  name    = "lb.cf.trustedge.win" # the public hostname to serve
+  name    = "tflb.origin.kushlearn.in" # the public hostname to serve
   proxied = true             # true = proxied/orange-cloud | false = DNS-only
 
   # off | random | geo | dynamic_latency | proximity | least_outstanding_requests | least_connections
