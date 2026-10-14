@@ -10,12 +10,12 @@
 #   AWS_SECRET_ACCESS_KEY = your R2 Secret Access Key
 terraform {
   backend "s3" {
-    bucket = "XXXX-your-r2-bucket-name" # <-- your R2 bucket name
+    bucket = "terraform-tfstate" # <-- your R2 bucket name
     region = "auto"
 
     endpoints = {
       # Replace with your Cloudflare Account ID.
-      s3 = "https://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.r2.cloudflarestorage.com"
+      s3 = "https://68e1253a502bd37e8feabeea38358543.r2.cloudflarestorage.com"
     }
 
     skip_credentials_validation = true
