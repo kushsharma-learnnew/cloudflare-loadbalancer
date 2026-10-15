@@ -20,20 +20,20 @@ pools = {
         weight             = 1
         virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea" # required for private IPs
       },
-      # {
-      #   name               = "origin-5"
-      #   address            = "10.190.0.57"
-      #   port               = 80
-      #   weight             = 1
-      #   virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
-      # },
-      #       {
-      #   name               = "origin-6"
-      #   address            = "10.190.0.58"
-      #   port               = 80
-      #   weight             = 1
-      #   virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
-      # },
+      {
+        name               = "origin-5"
+        address            = "10.190.0.57"
+        port               = 80
+        weight             = 1
+        virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
+      },
+            {
+        name               = "origin-6"
+        address            = "10.190.0.58"
+        port               = 80
+        weight             = 1
+        virtual_network_id = "0daf8596-4565-42ea-b5f6-364e9332e0ea"
+      },
     ]
   }
 }
